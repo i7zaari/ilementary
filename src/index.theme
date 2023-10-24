@@ -1,0 +1,14 @@
+[Icon Theme]
+Name=ilementary
+Comment=An icon theme for elementary OS 7+.
+
+Inherits=elementary
+Example=directory-x-normal
+Directories=apps/64
+
+[apps/64]
+Size=64
+Context=Applications
+MinSize=8
+MaxSize=512
+Type=Scalable
