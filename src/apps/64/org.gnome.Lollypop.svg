@@ -1,0 +1,36 @@
+<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient id="e" x1="24" x2="24" y1="5.9094" y2="42.092" gradientTransform="matrix(1.4324 0 0 1.4363 -2.3784 -2.4708)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#fff" offset="0"/>
+			<stop stop-color="#fff" stop-opacity=".23529" offset=".034875"/>
+			<stop stop-color="#fff" stop-opacity=".15686" offset=".96216"/>
+			<stop stop-color="#fff" stop-opacity=".39216" offset="1"/>
+		</linearGradient>
+		<linearGradient id="a">
+			<stop stop-color="#181818" offset="0"/>
+			<stop stop-color="#181818" stop-opacity="0" offset="1"/>
+		</linearGradient>
+		<radialGradient id="c" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(2.4045 0 0 1 41.986 15.5)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+		<radialGradient id="b" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(2.4045 0 0 1 -22.014 -102.5)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+		<linearGradient id="d" x1="25.058" x2="25.058" y1="47.028" y2="39.999" gradientTransform="matrix(1.5714 0 0 .71429 -5.7143 27.929)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#181818" stop-opacity="0" offset="0"/>
+			<stop stop-color="#181818" offset=".5"/>
+			<stop stop-color="#181818" stop-opacity="0" offset="1"/>
+		</linearGradient>
+	</defs>
+	<g>
+		<rect x="54" y="56.5" width="6" height="5" fill="url(#c)" opacity=".6"/>
+		<rect transform="scale(-1)" x="-10" y="-61.5" width="6" height="5" fill="url(#b)" opacity=".6"/>
+		<rect x="10" y="56.5" width="44" height="5" fill="url(#d)" opacity=".6"/>
+	</g>
+	<rect x="4.5" y="4.5" width="55" height="55" rx="6" ry="6" color="#000000" fill="#e73434"/>
+	<rect x="5.5" y="5.4288" width="53" height="53.142" rx="5" ry="5" fill="none" opacity=".3" stroke="url(#e)" stroke-linecap="round" stroke-linejoin="round"/>
+	<rect x="4.5" y="4.5" width="55" height="55" rx="6" ry="6" color="#000000" fill="none" opacity=".5" stroke="#e73434" stroke-linecap="round" stroke-linejoin="round"/>
+	<g transform="matrix(.8257 0 0 .8257 -17.89 -162.04)" fill="#fffefe">
+		<circle cx="48" cy="248" r="8"/>
+		<rect x="52" y="220" width="4" height="28"/>
+		<circle cx="68" cy="244" r="8"/>
+		<rect x="72" y="216" width="4" height="28"/>
+		<path d="m52 220 24-6v8l-24 6z"/>
+	</g>
+</svg>
